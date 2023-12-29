@@ -3,50 +3,52 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34302.85
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServicesDemo", "WebServicesDemo\WebServicesDemo.csproj", "{BDC8154B-FABE-4512-B912-086BBFE5E0AA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServicesDemo", "src\WebService\WebServicesDemo\WebServicesDemo.csproj", "{BDC8154B-FABE-4512-B912-086BBFE5E0AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWebClient", "HelloWebClient\HelloWebClient.csproj", "{6D129FF4-54A2-495D-8347-8D8456329827}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWebClient", "src\WebService\HelloWebClient\HelloWebClient.csproj", "{6D129FF4-54A2-495D-8347-8D8456329827}"
 	ProjectSection(ProjectDependencies) = postProject
 		{BDC8154B-FABE-4512-B912-086BBFE5E0AA} = {BDC8154B-FABE-4512-B912-086BBFE5E0AA}
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RemotingService", "RemotingService", "{4A0628BF-6B06-4322-A894-46BE780CABC6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IHelloRemotingService", "IHelloRemotingService\IHelloRemotingService.csproj", "{2D368D5A-E6D8-4105-85DC-FAF79051BFBC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IHelloRemotingService", "src\RemotingService\IHelloRemotingService\IHelloRemotingService.csproj", "{2D368D5A-E6D8-4105-85DC-FAF79051BFBC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloRemotingService", "HelloRemotingService\HelloRemotingService.csproj", "{A4F94C4F-5D11-437F-9A9C-E986A665C9B9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloRemotingService", "src\RemotingService\HelloRemotingService\HelloRemotingService.csproj", "{A4F94C4F-5D11-437F-9A9C-E986A665C9B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemotingServiceHost", "RemotingServiceHost\RemotingServiceHost.csproj", "{1E27F483-6364-47C1-88CB-9D90B9CE7641}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemotingServiceHost", "src\RemotingService\RemotingServiceHost\RemotingServiceHost.csproj", "{1E27F483-6364-47C1-88CB-9D90B9CE7641}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloRemotingServiceClient", "HelloRemotingServiceClient\HelloRemotingServiceClient.csproj", "{3EFF3F62-4560-4FFC-90DE-54D17F2EFA3E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloRemotingServiceClient", "src\RemotingService\HelloRemotingServiceClient\HelloRemotingServiceClient.csproj", "{3EFF3F62-4560-4FFC-90DE-54D17F2EFA3E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebService", "WebService", "{126937A9-36E4-4917-A386-7B413A1BCE40}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WCF", "WCF", "{B69127D0-2155-4385-AB1A-107AB736F685}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloService", "HelloService\HelloService.csproj", "{E0118C30-2A8C-475E-9408-DF65FA09B7F2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloService", "src\WCF\HelloService\HelloService.csproj", "{E0118C30-2A8C-475E-9408-DF65FA09B7F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloServiceHost", "HelloServiceHost\HelloServiceHost.csproj", "{4C60318D-C778-4C18-91A3-BA41A5021E6F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloServiceHost", "src\WCF\HelloServiceHost\HelloServiceHost.csproj", "{4C60318D-C778-4C18-91A3-BA41A5021E6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWebClientWCF", "HelloWebClientWCF\HelloWebClientWCF.csproj", "{AE68CC7C-06F5-488E-B221-38F104675845}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWebClientWCF", "src\WCF\HelloWebClientWCF\HelloWebClientWCF.csproj", "{AE68CC7C-06F5-488E-B221-38F104675845}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWindowsClientWCF", "HelloWindowsClientWCF\HelloWindowsClientWCF.csproj", "{CF6F7ED0-20C6-4DA2-B3DD-FBB76611EFBC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWindowsClientWCF", "src\WCF\HelloWindowsClientWCF\HelloWindowsClientWCF.csproj", "{CF6F7ED0-20C6-4DA2-B3DD-FBB76611EFBC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WCF-MultipleServiceContracts", "WCF-MultipleServiceContracts", "{B71C3B1B-C7A5-49A6-A96A-D702C92E79FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyService", "CompanyService\CompanyService.csproj", "{08832882-292E-4C06-A771-058FA54137ED}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyService", "src\WCF-MultipleServiceContracts\CompanyService\CompanyService.csproj", "{08832882-292E-4C06-A771-058FA54137ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyServiceHost", "CompanyServiceHost\CompanyServiceHost.csproj", "{355E71C6-9503-4287-9DFD-CF5607C28268}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyServiceHost", "src\WCF-MultipleServiceContracts\CompanyServiceHost\CompanyServiceHost.csproj", "{355E71C6-9503-4287-9DFD-CF5607C28268}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyClient", "CompanyClient\CompanyClient.csproj", "{3476C4EF-8DD8-40EC-A89D-151DAD3BE119}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyClient", "src\WCF-MultipleServiceContracts\CompanyClient\CompanyClient.csproj", "{3476C4EF-8DD8-40EC-A89D-151DAD3BE119}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeService", "EmployeeService\EmployeeService.csproj", "{FDD4BB53-A7A9-4728-AFE3-D6E7703E8236}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeService", "src\DataContractAndDataMembers\EmployeeService\EmployeeService.csproj", "{FDD4BB53-A7A9-4728-AFE3-D6E7703E8236}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeServiceHost", "EmployeeServiceHost\EmployeeServiceHost.csproj", "{B05346F7-05EB-4DDA-97A8-7AD10212F62B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeServiceHost", "src\DataContractAndDataMembers\EmployeeServiceHost\EmployeeServiceHost.csproj", "{B05346F7-05EB-4DDA-97A8-7AD10212F62B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeClientWeb", "EmployeeClientWeb\EmployeeClientWeb.csproj", "{95262D11-F006-4790-9F64-B8CC3EC7E3F1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeClientWeb", "src\DataContractAndDataMembers\EmployeeClientWeb\EmployeeClientWeb.csproj", "{95262D11-F006-4790-9F64-B8CC3EC7E3F1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataContractAndDataMembers", "DataContractAndDataMembers", "{EBC2127A-FE77-4205-A34A-A0B447B464BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AE8F1EA4-FE74-4C16-931A-73594034FAC7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -125,20 +127,25 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{BDC8154B-FABE-4512-B912-086BBFE5E0AA} = {126937A9-36E4-4917-A386-7B413A1BCE40}
 		{6D129FF4-54A2-495D-8347-8D8456329827} = {126937A9-36E4-4917-A386-7B413A1BCE40}
+		{4A0628BF-6B06-4322-A894-46BE780CABC6} = {AE8F1EA4-FE74-4C16-931A-73594034FAC7}
 		{2D368D5A-E6D8-4105-85DC-FAF79051BFBC} = {4A0628BF-6B06-4322-A894-46BE780CABC6}
 		{A4F94C4F-5D11-437F-9A9C-E986A665C9B9} = {4A0628BF-6B06-4322-A894-46BE780CABC6}
 		{1E27F483-6364-47C1-88CB-9D90B9CE7641} = {4A0628BF-6B06-4322-A894-46BE780CABC6}
 		{3EFF3F62-4560-4FFC-90DE-54D17F2EFA3E} = {4A0628BF-6B06-4322-A894-46BE780CABC6}
+		{126937A9-36E4-4917-A386-7B413A1BCE40} = {AE8F1EA4-FE74-4C16-931A-73594034FAC7}
+		{B69127D0-2155-4385-AB1A-107AB736F685} = {AE8F1EA4-FE74-4C16-931A-73594034FAC7}
 		{E0118C30-2A8C-475E-9408-DF65FA09B7F2} = {B69127D0-2155-4385-AB1A-107AB736F685}
 		{4C60318D-C778-4C18-91A3-BA41A5021E6F} = {B69127D0-2155-4385-AB1A-107AB736F685}
 		{AE68CC7C-06F5-488E-B221-38F104675845} = {B69127D0-2155-4385-AB1A-107AB736F685}
 		{CF6F7ED0-20C6-4DA2-B3DD-FBB76611EFBC} = {B69127D0-2155-4385-AB1A-107AB736F685}
+		{B71C3B1B-C7A5-49A6-A96A-D702C92E79FE} = {AE8F1EA4-FE74-4C16-931A-73594034FAC7}
 		{08832882-292E-4C06-A771-058FA54137ED} = {B71C3B1B-C7A5-49A6-A96A-D702C92E79FE}
 		{355E71C6-9503-4287-9DFD-CF5607C28268} = {B71C3B1B-C7A5-49A6-A96A-D702C92E79FE}
 		{3476C4EF-8DD8-40EC-A89D-151DAD3BE119} = {B71C3B1B-C7A5-49A6-A96A-D702C92E79FE}
 		{FDD4BB53-A7A9-4728-AFE3-D6E7703E8236} = {EBC2127A-FE77-4205-A34A-A0B447B464BA}
 		{B05346F7-05EB-4DDA-97A8-7AD10212F62B} = {EBC2127A-FE77-4205-A34A-A0B447B464BA}
 		{95262D11-F006-4790-9F64-B8CC3EC7E3F1} = {EBC2127A-FE77-4205-A34A-A0B447B464BA}
+		{EBC2127A-FE77-4205-A34A-A0B447B464BA} = {AE8F1EA4-FE74-4C16-931A-73594034FAC7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {96CC614F-E940-4D9D-9025-CFBB905CC98B}
